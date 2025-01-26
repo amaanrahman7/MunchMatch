@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Feed My Face</string>
+    <string name="Open">NavBar</string>
+    <string name="Close">NavBar</string>
+
+    <string name="Rating">Rating</string>
+    <string name="RatingValue">3</string>
+    <string name="Price">Price</string>
+    <string name="PriceValue">$$</string>
+    <string name="Distance">Distance</string>
+    <string name="minDistance">0</string>
+    <string name="maxDistance">20</string>
+    <string name="Diet">Diet</string>
+    <string name="Meat">Meat-Eater</string>
+    <string name="Vegetarian">Vegetarian</string>
+    <string name="Vegan">Vegan</string>
+    <string name="Preferences">Preferences</string>
+
+</resources>

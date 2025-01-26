@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/dl">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/swipenote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swipe Left to Begin"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:translationY="60dp"
+            android:typeface="sans" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/foodImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/swipe_left" />
+
+        <TextView
+            android:id="@+id/foodTitle"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:gravity="start|left"
+            android:paddingStart="40dp"
+            android:paddingEnd="0dp"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:layout_conversion_absoluteHeight="44dp"
+            tools:layout_conversion_absoluteWidth="411dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="607dp" />
+
+        <TextView
+            android:id="@+id/bottomText"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:paddingStart="40dp"
+            android:paddingEnd="0dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            tools:layout_conversion_absoluteHeight="46dp"
+            tools:layout_conversion_absoluteWidth="411dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="651dp" />
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/navbarlayout"
+        app:menu="@menu/navbar">
+
+    </android.support.design.widget.NavigationView>
+
+
+</android.support.v4.widget.DrawerLayout>

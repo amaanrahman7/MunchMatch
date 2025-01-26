@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/tinder4food_colored_background"/>
+    <item>
+        <bitmap android:src="@drawable/tinder4food_transparent_icon_version2"
+            android:gravity="center"/>
+    </item>
+</layer-list>

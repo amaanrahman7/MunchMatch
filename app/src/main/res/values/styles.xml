@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ff5864</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">#FD414C</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="NavBarStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background</item>
+    </style>
+
+    <style name="MySeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressBackgroundTint">#ff5864</item>
+        <item name="android:progressTint">#ff5864</item>
+        <item name="android:colorControlNormal">#ff5864</item>
+        <item name="android:thumbTint">#ff5864</item>
+
+
+    </style>
+
+    <style name="AppThemeTwo" parent="Theme.AppCompat.Light">
+        <item name="android:colorControlActivated">#1a237e</item>
+        <item name="android:colorControlNormal">#ff5864</item>
+        <item name="colorPrimary">#ff5864</item>
+        <item name="android:navigationBarColor">#FD414C</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>
